@@ -1,0 +1,28 @@
+{
+  "name": "ner-slides-generation",
+  "version": "1.0.0",
+  "description": "Automated Google Apps Script for generating NER (Near Endemic Report) campaign presentation slides from BigQuery data",
+  "main": "NER_Slides.gs",
+  "scripts": {
+    "test": "node --test NER_Slides.test.cjs",
+    "test:watch": "node --test --watch NER_Slides.test.cjs"
+  },
+  "keywords": [
+    "google-apps-script",
+    "google-slides",
+    "bigquery",
+    "campaign-automation",
+    "presentation-generation"
+  ],
+  "author": "Varsha Kondoori",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {},
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vkondoori/NER_Slides_Generation"
+  }
+}

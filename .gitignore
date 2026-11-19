@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+
+# Build and distribution
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Google Apps Script related
+.clasp.json
+claspignore
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Sensitive files (never commit these)
+*.credentials
+*.secret
+credentials.json
+secrets.json
+
+# Google Drive and BigQuery config files should be managed separately
+# Not versioning actual folder IDs or project configs
+local-config.json
+test-data/
